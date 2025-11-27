@@ -1,0 +1,50 @@
+[
+    {
+        "post_id": 0,
+        "job_title": "Playtester",
+        "description": "you playtest games",
+        "requirements": "A computer",
+        "pay": "2 dollars an hour",
+        "employer": "Game Dev"
+    },
+    {
+        "post_id": 1,
+        "job_title": "Pizza deliverer",
+        "description": "you deliver pizzas",
+        "requirements": "a mode of transport",
+        "pay": "$2 an hour",
+        "employer": "Eliot"
+    },
+    {
+        "post_id": 2,
+        "job_title": "baby sitting",
+        "description": "sit on babies",
+        "requirements": "none",
+        "pay": "1 baby",
+        "employer": "shminkle"
+    },
+    {
+        "post_id": 3,
+        "job_title": "Pluey",
+        "description": "Implementing Pluey",
+        "requirements": "Pluey",
+        "pay": "Pluey",
+        "employer": "dave"
+    },
+    {
+        "post_id": 4,
+        "job_title": "Ena",
+        "description": "Find the boss",
+        "requirements": "im da buss",
+        "pay": "A jar of mayonnaise",
+        "employer": "Froggy"
+    },
+    {
+        "post_id": 5,
+        "job_title": "chess player",
+        "description": "play chess with me now",
+        "requirements": "knows how to play chess",
+        "pay": "1 pawn an hour",
+        "employer": "admin"
+    }
+]
