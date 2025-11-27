@@ -1,22 +1,26 @@
 [
     {
         "username": "admin",
-        "pasword": "12345"
+        "pasword": "12345",
+        "bookmarks":
+        {
+
+        },
+        "reviews":
+        {
+            
+        }
     },
     {
-        "username": "dave",
-        "pasword": "Ilovecats"
-    },
-    {
-        "username": "shminkle",
-        "pasword": "shmankle"
-    },
-    {
-        "username": "uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-        "pasword": "uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
-    },
-    {
-        "username": "SackyBacky",
-        "pasword": "heavyrain58degrees"
+        "username": "",
+        "pasword": "",
+        "bookmarks":
+        {
+
+        },
+        "reviews":
+        {
+            
+        }
     }
 ]

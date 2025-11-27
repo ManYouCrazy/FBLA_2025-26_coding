@@ -77,18 +77,6 @@ def login(user_data,username,password_guess):
     return ("Account not found",0)
         
 
-
-"""business_file_data = open_json('business_lists/business_lists.json')
-business_archive = []
-
-input_questions = "1 - Search for a job - Search for a job, make sure you know the job ID \n2 - View all jobs - Posts all available job listing \n3 - Create job listing - Create a job listing that is saved to be available \n4 - Edit listing, Edit you job listings \n5 - quit - End the program\n"
-"""
-
-#main program setup
-"""for listing in business_file_data:
-    x = business_post(listing['job_title'],listing['description'],listing['requirements'],listing['pay'],listing['employer'],listing['post_id'])
-    business_archive.append(x)"""
-
 #main program
 """while (user_input != "5"):
     #search for post
