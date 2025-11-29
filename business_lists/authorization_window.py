@@ -14,6 +14,7 @@ class auth_window():
         self.username = ""
 
         # main window
+        self.root = root
         self.window = tk.Toplevel(root)
         self.window.wm_geometry("400x200")
         self.window.title("Authorization")

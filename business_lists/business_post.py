@@ -31,3 +31,6 @@ class business_post:
         "special_deals": self.special_deals,
         "ratings": self.ratings
     }
+
+    def disp_format(self):
+        return "Business ID: " + str(self.post_id) + "\nName: " + self.title + "\nDescription: " + self.description
