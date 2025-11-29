@@ -19,7 +19,7 @@ class business_post:
     def __str__(self):
         return "Business ID: " + str(self.post_id) + "\nTitle: " + self.title + "\nDescription: " + self.description + "\nLocation: " + self.location + "\nEstablished: " + str(self.established) + "\nAverage Rating: " + str(self.average_rating) + "\nSpecial Deals: " + str(self.special_deals) + "\nRatings: " + str(self.ratings)
     
-    def json_Format(self):
+    def json_format(self):
         return {
         "post_id": self.post_id,
         "title": self.title,

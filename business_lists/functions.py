@@ -62,11 +62,12 @@ def uploadListing(new_job_desc,business_file_data):
 def update_after_edit(newListings):
     business_file_data = []
     for listing in newListings:
-        business_file_data.append(listing.json_Format())
+        business_file_data.append(listing.json_format())
     with open("business_lists/business_lists.json",'w') as file:
         file.seek(0)
         json.dump(business_file_data, file, indent = 4)
 
+#returns an error or sucsess for login
 def login(user_data,username,password_guess):
     if (check_value(user_data,username)):
         password = find_password(username,user_data)
@@ -77,7 +78,7 @@ def login(user_data,username,password_guess):
     return ("Account not found",0)
         
 
-#main program
+#OLD CODE TO REVISIT FOR FUTURE REPURPOSING
 """while (user_input != "5"):
     #search for post
     if (user_input == "1"): 
@@ -95,7 +96,7 @@ def login(user_data,username,password_guess):
     #create post
     elif (user_input == "3"): 
         createdListing = business_post(input("what is the job title\n"),input("what is the job description\n"),input("what are the requirements\n"),input("what is the pay\n"),username)
-        uploadListing(createdListing.json_Format())
+        uploadListing(createdListing.json_format())
         business_archive.append(createdListing)
         print(createdListing)
         user_input = ""
